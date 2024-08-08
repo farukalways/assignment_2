@@ -6,9 +6,22 @@
 }
 body{
   max-width: 1920px;
-  background: rgb(0, 0, 0);;
+  background: rgb(0, 0, 0);
 }
-
+/* sheard style */
+  .section_header{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .section_discribtion{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+  }
+  
  /* start header style */
  .banner{
   width: 100%;
@@ -17,7 +30,7 @@ body{
  }
   /* start navber style */
 .navber{
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   margin-top: 20px;
   padding: 14px 0;
@@ -51,8 +64,9 @@ body{
   padding: 8px 14px;
   border-radius: 46px;
 }
+/* banner style start in header*/
 .main_container{
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -93,4 +107,78 @@ body{
 }
 .main_container_img{
   width: 339px;
+  position: relative;
+}
+.glass_style{
+  width: 190px;
+  height: 96px;
+  position: absolute;
+  margin-top: -170px;
+  margin-left: -130px;
+  padding: 20px 14px;
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.circle{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+.glass_style_header{
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+}
+.glass_style_dis{
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(239, 237, 232, 0.65);
+}
+.glass_style_two{
+  width: 150px;
+  height: 86px;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 135px;
+  padding: 20px 14px;
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  border-radius: 5px;
+}
+/* Change Your Habits section style start */
+.change_habits{
+  width: 85%;
+  margin: 0 auto;
+}
+.change_habits_detail{
+  width: 200px;
+}
+.change_habits_details{
+  width: 100%;
+  margin-top: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.c_h_d_img{
+  max-width: 350;
+  height: 188px;
+  border-radius: 50%;
+}
+.c_h_d_header{
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.c_h_d_discribtion{
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
 }
