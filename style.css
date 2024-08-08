@@ -12,16 +12,16 @@ body{
   .section_header{
     font-size: 48px;
     font-weight: 900;
-    color: rgb(255, 255, 255);
-    text-align: center;
+    color: rgb(255, 255, 255); 
   }
   .section_discribtion{
     font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+  }
+  .text_align{
     text-align: center;
   }
-  
  /* start header style */
  .banner{
   width: 100%;
@@ -49,6 +49,12 @@ body{
   margin-right: 47px;
   list-style: none;
 }
+.nav_ul{
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+}
+
 .nav_list{
  text-decoration: none;
  font-size: 18px;
@@ -59,9 +65,9 @@ body{
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
+  padding: 8px 14px;
   color: rgb(255, 255, 255);
   background-color: rgb(230, 83, 60);
-  padding: 8px 14px;
   border-radius: 46px;
 }
 /* banner style start in header*/
@@ -154,6 +160,7 @@ body{
 .change_habits{
   width: 85%;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 .change_habits_detail{
   width: 200px;
@@ -181,4 +188,44 @@ body{
   font-weight: 400;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
+}
+/* Run an Extra Mile Easily start style */
+
+.run_extra{
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 30px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.run_extra_child{
+  max-width: 443px;
+  padding: 30px;
+}
+.run_extra_img{
+  max-width: 366px;
+  height: 319px;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+  .main_container{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .change_habits_details{
+    display: grid;
+    
+  }
 }
