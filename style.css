@@ -32,8 +32,7 @@ body{
 .navber{
   width: 85%;
   margin: 0 auto;
-  margin-top: 20px;
-  padding: 14px 0;
+  padding: 24px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -124,7 +123,7 @@ body{
   padding: 20px 14px;
   background: rgba(48, 48, 48, 0.54);
   backdrop-filter: blur(20px);
-  border-radius: 5px;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -154,7 +153,7 @@ body{
   padding: 20px 14px;
   background: rgba(48, 48, 48, 0.54);
   backdrop-filter: blur(20px);
-  border-radius: 5px;
+  border-radius: 15px;
 }
 /* Change Your Habits section style start */
 .change_habits{
