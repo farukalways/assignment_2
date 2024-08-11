@@ -6,8 +6,8 @@
 }
 body{
   max-width: 1920px;
-  /* background: rgb(0, 0, 0); */
-  background-color: #833471;
+  background: rgb(0, 0, 0);
+  /* background-color: #833471; */
 }
 /* sheard style */
   .section_header{
@@ -23,6 +23,7 @@ body{
   .section_discribtion{
     font-size: 14px;
     font-weight: 400;
+    margin: 18px 0;
     color: rgba(255, 255, 255, 0.5);
   }
   .text_align{
@@ -47,6 +48,7 @@ body{
 .logo{
  font-size: 36px;
  font-weight: 800;
+ font-style: italic;
  color: rgb(230, 83, 60);
 }
 .navber ul li{
@@ -54,6 +56,10 @@ body{
   margin-right: 47px;
   list-style: none;
 }
+.navber ul .nav_list_style {
+  margin-right: 10px;
+}
+
 .nav_ul{
   padding: 8px 14px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -66,7 +72,7 @@ body{
  font-weight: 400;
  color: rgb(255, 255, 255);
 }
-.nav_list_style{
+.nav_frist_style{
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
@@ -75,6 +81,7 @@ body{
   background-color: rgb(230, 83, 60);
   border-radius: 46px;
 }
+
 /* banner style start in header*/
 .main_container{
   width: 85%;
@@ -185,6 +192,7 @@ body{
 .c_h_d_header{
   font-size: 18px;
   font-weight: 600;
+  margin-top: 20px;
   color: #fff;
   text-align: center;
 }
@@ -216,46 +224,64 @@ body{
   max-width: 366px;
   height: 319px;
   border-radius: 12px;
+  object-fit: none;
+  object-position: 66% 32%; 
 }
 /* BMI Calculator section start */
-
+.bmi_main_container{
+  width: 100%;
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+}
 
 /* bmi calculation and table section*/
 .bmi_calculation{
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
+  padding: 30px 0;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
-  background: rgba(48, 48, 48, 0.54);
-  backdrop-filter: blur(20px);
+
 }
 .bmi_calculator_chart{
   width: 35%;
 }
 table, th, td{
   padding: 8px;
-  text-align: start;
+  text-align: left;
   border-collapse: collapse;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.1)
+}
+ .aline_left{
+  text-align: left;
 }
 .calculate_bmi{
   width: 55%;
 }
 .bmi_box{
-  width: 45%;
+  width: 46%;
   margin: 12px 8px;
   padding: 10px;
+  outline: 0;
+  border: 0;
   color: rgba(255, 255, 255, 0.6);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
 
 }
+.option_box{
+  border: 0;
+  outline: 0;
+}
 .last_bmi_box{
-  width: 93%;
+  width: 95.5%;
   margin: 12px 8px;
   padding: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  border: 0;
+  outline: 0;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
 }
@@ -268,8 +294,84 @@ table, th, td{
   margin-top: 50px;
 }
 
+/* Meet Our Team section start */
 
+.meet_team{
+ margin-top: 100px;
+}
+.team_details{
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 20px;
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  border-radius: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.trainer_info{
+  width: 100%;
+  position: relative;
+}
+.trainer_info img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+.trainer_details{
+  position: absolute;
+  top: 82%;
+  left: 20px;
+}
+.trainer_name{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.profession{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
 
+  /* footer section style start */
+.footer_container{
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.fitness{
+  width: 50%;
+  padding-right: 70px;
+}
+.fitness_header{
+  font-size: 70px;
+}
+.fitness_child_container{
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.getstarted_details{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer_discribtion{
+  font-size: 18px;
+  font-weight: 400;
+  padding: 30px 0;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
 
 
 
