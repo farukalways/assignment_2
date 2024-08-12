@@ -324,7 +324,7 @@ table, th, td{
 }
 .trainer_details{
   position: absolute;
-  top: 82%;
+  top: 74%;
   left: 20px;
 }
 .trainer_name{
@@ -384,7 +384,7 @@ table, th, td{
   .icon{
     display: block;
     color: #fff;
-    padding-right: 25px;
+    padding-right: 10px;
     font-size: 1.5rem;
   }
   .banner_btn{
