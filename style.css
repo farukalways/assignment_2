@@ -7,7 +7,6 @@
 body{
   max-width: 1920px;
   background: rgb(0, 0, 0);
-  /* background-color: #833471; */
 }
 /* sheard style */
   .section_header{
@@ -81,7 +80,9 @@ body{
   background-color: rgb(230, 83, 60);
   border-radius: 46px;
 }
-
+.icon{
+  display: none;
+}
 /* banner style start in header*/
 .main_container{
   width: 85%;
@@ -107,12 +108,12 @@ body{
   font-size: 16px;
   font-weight: 400;
 }
-.stay_btn{
-  width: 224px;
+.stay_btn, .banner_btn {
+  max-width: 224px;
   background-color: rgb(230, 83, 60);
   font-size: 18px;
   font-weight: 600;
-  padding: 15px 0;
+  padding: 16px 40px;
   color: rgb(255, 255, 255);
   text-align: center;
   margin: 20px 10px;
@@ -187,6 +188,7 @@ body{
 .c_h_d_img{
   max-width: 350;
   height: 188px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
 .c_h_d_header{
@@ -348,7 +350,7 @@ table, th, td{
 }
 .fitness{
   width: 50%;
-  padding-right: 70px;
+  padding-right: 50px;
 }
 .fitness_header{
   font-size: 70px;
@@ -373,15 +375,86 @@ table, th, td{
   text-align: center;
 }
 
+@media screen and (max-width:576px) {
 
+  /* banner style start in header*/
+  .nav_ul{
+    display: none;  
+  }
+  .icon{
+    display: block;
+    color: #fff;
+    padding-right: 25px;
+    font-size: 1.5rem;
+  }
+  .banner_btn{
+    max-width: 150px;
+    padding: 10px 25px;
+  }
+  .stay_healthy_header{
+    font-size: 36px;
+  }
+  .meet_team,
+  .change_habits{
+    margin-top: 50px;
+  }
+  .change_habits{
+    margin-bottom: 50px;
+  }
+  .main_container,
+  .change_habits_details,
+  .run_extra,
+  .bmi_calculation,
+  .footer_container,
+  .fitness_child_container
+  {
+   flex-direction: column;
+   margin-bottom: 0;
+   gap: 20px;
+   }
+   .glass_style_two{
+   margin-left: 180px;
+   margin-top: 75px;
+  }
+  .glass_style{
+   margin-top: -335px;
+   margin-left: -10px;
+  }
+  /* Run an Extra Mile Easily */
+  .section_header{
+    font-size: 32px;
+  }
+  .run_extra_child{
+    padding: 12px;
+  }
+  .run_extra_img{
+    width: 92%;
+    border-radius: 12px;
+  }
+  /* BMI Calculator section start */
+  .bmi_calculator{
+    width: 85%;
+    margin: 20px auto;
+  }
+  .bmi_calculator_chart,
+  .calculate_bmi{
+    width: 100%;
+  }
+  .bmi_box{
+    width: 44%;
+  }
+  .team_details{
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* footer style */
+  .fitness{
+    width: 100%;
+  }
+  .footer_container{
+    margin-top: 50px;
+    padding: 30px 0;
+  }
 
-@media screen and (min-width:576px) and (max-width:992px){
-  .main_container{
-    flex-direction: column;
-    gap: 50px;
-  }
-  .change_habits_details{
-    display: grid;
-    
-  }
 }
