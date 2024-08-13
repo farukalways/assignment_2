@@ -338,6 +338,63 @@ table, th, td{
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* stay_date */
+
+.stay_date{
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 100PX;
+  padding: 20px;
+  background: rgb(34, 34, 34);
+  backdrop-filter: blur(20px);
+}
+.stay_main_container{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.stay_frist_container{
+  width: 60%;
+  padding: 16px;
+  border-right: 2px solid rgba(255, 255, 255, 0.1);
+}
+.stay_second_container{
+  width: 40%;
+}
+.readio_battun{
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 20px;
+  padding: 10px 0;
+}
+.checkbox{
+  margin: 5px 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.ssc_header{
+ font-size: 28px;
+ font-weight: 400;
+ color: #fff;
+ text-transform: uppercase;
+ padding: 10px 0;
+}
+.sociallogo_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+}
+.sociamedia_logo{
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
   /* footer section style start */
 .footer_container{
   width: 85%;
@@ -406,7 +463,8 @@ table, th, td{
   .run_extra,
   .bmi_calculation,
   .footer_container,
-  .fitness_child_container
+  .fitness_child_container,
+  .stay_main_container
   {
    flex-direction: column;
    margin-bottom: 0;
@@ -447,6 +505,21 @@ table, th, td{
     grid-template-columns: repeat(1, 1fr);
     margin-top: 0;
     margin-bottom: 0;
+  }
+  /* stay_date */
+
+  .stay_date{
+   margin: 20px auto;
+  }
+  .stay_frist_container{
+    width: 100%;
+    padding: 2px;
+    border-right: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  .stay_second_container{
+    width: 100%;
+    padding: 2px;
   }
   /* footer style */
   .fitness{
