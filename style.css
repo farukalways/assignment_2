@@ -362,9 +362,13 @@ table, th, td{
 .stay_second_container{
   width: 40%;
 }
+.readio_battuns{
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
 .readio_battun{
   color: rgba(255, 255, 255, 0.5);
-  margin-left: 20px;
   padding: 10px 0;
 }
 .checkbox{
@@ -378,6 +382,8 @@ table, th, td{
  text-transform: uppercase;
  padding: 10px 0;
 }
+
+
 .sociallogo_container{
   display: flex;
   align-items: center;
